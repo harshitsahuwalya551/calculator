@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="harshit.css">
+    <script src="https://kit.fontawesome.com/0b6732735e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <h1>Calculator</h1>
+    <div class="calculator flex-row">
+        <div class="container flex-col">
+            <input id="display" class="input" type="text" placeholder="Enter">
+            <div class="button_container">
+            
+                <div class="btn" onclick="power()">x<sup>2</sup></div>
+                <div class="btn"onclick="pi()">π</div>
+                <div class="button">%</div>
+                <div class="btn" onclick="exp()">e</div>
+                <div class="btn ac_button" onclick="delLastChar()"><i class="fa-solid fa-regular fa-delete-left"></i></i></div>
+
+                <div class="btn" onclick="sin()">sin</div>
+                <div class="btn" onclick="cos()">cos</div>
+                <div class="btn" onclick="tan()">tan</div>
+                <div class="btn" onclick="log()">log</div>
+                <div class="btn" onclick="fact()">x!</div>
+
+                <div class="button">7</div>
+                <div class="button">8</div>
+                <div class="button">9</div>
+                <div class="btn" onclick="root()">√</div>
+                <div class="btn" onclick="cube()">x<sup>3</sup></div>
+
+           
+            
+     
+             <div class="button">4</div>
+             <div class="button">5</div>
+             <div class="button">6</div>
+             <div class="button">-</div>
+             <div class="button">*</div>
+     
+             <div class="button">1</div>
+             <div class="button">2</div>
+             <div class="button">3</div>
+             <div class="button">+</div>
+     
+             <div id="clear" class="button">c</div>
+             <div class="button">/</div>
+             <div class="button">0</div>
+             <div  id="equal" class="eq button" onclick="calculate()">=</div>
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="harsh.js"></script>
+</body>
+</html>
